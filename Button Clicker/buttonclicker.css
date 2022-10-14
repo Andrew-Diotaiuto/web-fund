@@ -1,0 +1,232 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    height: 1080px;
+    width: 1920px;
+    display: block;
+}
+
+.navigation {
+    background-color: gray;
+    height: 100px;
+    width: 1600px;
+    margin-left: 155px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    height: 100px;
+    width: 300px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search_bar {
+    font-size: 30px;
+    padding: 5px 10px;
+    margin: 100px;
+}
+
+.login_btn {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    box-shadow: 2px 2px black;
+    margin-right: 30px;
+}
+
+
+.column_1 {
+    height: 700px;
+    width: 900px;
+}
+
+.left_box_1 {
+    background-color: white;
+    height: 340px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.word_1 {
+    height: 70px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.adjective_1 {
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.plural_1 {
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.like_button_1 {
+    background-color: yellow;
+    height: 35px;
+    width: 150px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    box-shadow: 2px 2px black;
+}
+
+.right_side_1 {
+    height: 100px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+
+.definition_1 {
+    height: 100px;
+    width: 350px;
+    font-size: 30px;
+}
+
+.left_box_2 {
+    background-color: white;
+    height: 340px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.word_2 {
+    height: 70px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.adjective_2 {
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.plural_2 {
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.like_button_2 {
+    background-color: yellow;
+    height: 35px;
+    width: 150px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    box-shadow: 2px 2px black;
+}
+
+
+.right_side_2 {
+    height: 100px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.definition_2 {
+    height: 100px;
+    width: 350px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.column_2 {
+width: 700px;
+height: 400px;
+margin-left: 100px;
+margin-bottom: 300px;
+}
+
+.dojonary_box {
+width: 600px;
+height: 350px;
+background-color: white;
+box-shadow: 2px 2px 2px 2px black;
+}
+
+.dojonary_message {
+    width: 600px;
+    height: 175px;
+    font-size: 33px;
+}
+
+.dojonary_button {
+    width: 600px;
+    height: 175px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.columns {
+    height: 980px;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    margin-left: 155px;
+}
+
+.dojonary_message_box {
+    width: 600px;   
+    height: 175px;
+    margin: 10px;
+}
+
+.dojonary_button_box {
+    width: 600px;   
+    height: 175px;
+}
+
+.lb {
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    box-shadow: 2px 2px black;
+}
+
+

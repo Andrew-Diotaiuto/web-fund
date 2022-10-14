@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker
+    </title>
+    <link rel="stylesheet" href="buttonclicker.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <h1 class="icon">Dojonary</h1>
+            <input type="text" name="search" placeholder="Search" class="search_bar">
+            <button class="login_btn" onclick="login(this)">Login</button>
+        </div>
+        <div class="columns">
+            <div class="column_1">
+                <div class="left_box_1">
+                    <div class="left_side_1">
+                        <h1 class="word_1">Ninja</h1>
+                        <h3 class="adjective_1">noun</h3>
+                        <h3 class="plural_1">Plural: <i>ninjas</i></h3>
+                        <button class="like_button_1" onclick="message()">13 likes</button>
+                    </div>
+                    <div class="right_side_1">
+                        <div class="definition_1">
+                            A practicioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_box_2">
+                    <div class="left_side_2">
+                        <h1 class="word_2">Ninja</h1>
+                        <h3 class="adjective_2">noun</h3>
+                        <h3 class="plural_2">Plural: <i>ninjas</i></h3>
+                        <button class="like_button_2" onclick="message()">37 likes</button>
+                    </div>
+                    <div class="right_side_2">
+                        <div class="definition_2">
+                            A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column_2">
+                <div class="dojonary_box">
+                    <div class="dojonary_box_contents">
+                        <div class="dojonary_message_box">
+                            <div class="dojonary_message">
+                                <h1>Dojonary is defined by YOU</h1>
+                            </div>
+                        </div>
+                        <div class="dojonary_button_box">
+                            <div class="dojonary_button"><button class="lb" onclick="hidebutton(this)">
+                                    Add Definition</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="buttonclicker.js"></script>
+</body>
+
+</html>

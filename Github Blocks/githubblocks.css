@@ -1,0 +1,37 @@
+.Top,.Mid,.Bot {
+height: 250px;
+width: 1780px;
+margin: 20px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.cat {
+height: 240px;  
+width: 240px; 
+align-items: ;
+}
+
+
+.header{
+text-align: center;   
+margin: 20px;
+}
+
+.Top{
+background-color: cadetblue;
+}
+
+.Mid{
+background-color: darkorange;
+}
+
+.Bot{
+background-color: crimson;
+}
+
+.link{
+text-align: center;
+}
